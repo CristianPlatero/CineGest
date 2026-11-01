@@ -1,72 +1,58 @@
-# CineGest
+# Documentación
 
-> Aplicación web para gestionar un cine desde un único sistema: películas, salas, sesiones, entradas y clientes.
+Índice de la documentación del proyecto CineGest, organizada en siete bloques. Cada bloque termina con un entregable y tiene su propia carpeta.
 
-![Fase](https://img.shields.io/badge/fase-documentaci%C3%B3n-yellow?style=flat-square)
-![Ciclo](https://img.shields.io/badge/ciclo-2%C2%BA%20DAW-blue?style=flat-square)
-![Curso](https://img.shields.io/badge/curso-2026--27-lightgrey?style=flat-square)
+[← Volver al README principal](../README.md)
 
-## Descripción
+## Cómo trabajamos
 
-CineGest centraliza en un único sistema la información de un cine: películas, salas, sesiones y entradas. Evita errores de organización, reduce el trabajo manual del personal y facilita a los clientes la consulta de la cartelera y la compra o reserva de entradas.
+El módulo se desarrolla de forma incremental. Durante las sesiones de clase trabajamos **sin programar**, generando la documentación del proyecto bloque a bloque. Después, en las **dos semanas de desarrollo intermodular**, construimos la aplicación a partir de esa documentación. Todo el proceso queda registrado en este repositorio.
 
-La idea surge de la necesidad de contar con una herramienta sencilla para gestionar de forma rápida y organizada todos los aspectos de un cine. El anteproyecto fue presentado por Ossel Santamaría Bustelo y elegido por el equipo.
+## Hoja de ruta
 
-**Alcance de la primera versión:** un cine con varias salas, pago mediante tarjeta y dos tipos de actor: usuario (cliente) y personal autorizado.
-
-## Documentación
-
-Toda la documentación del proyecto está en [`documentacion/`](documentacion/), organizada por bloques. Cada carpeta tiene su propio `README` con el contenido, los archivos y el estado.
-
-| Bloque | Carpeta | Estado |
-| --- | --- | --- |
-| 1. Anteproyecto | [`01-anteproyecto`](documentacion/01-anteproyecto/) | 🟡 |
-| 2. Definición y casos de uso | [`02-definicion`](documentacion/02-definicion/) | 🟡 |
-| 3. Requisitos y MVP | [`03-requisitos-mvp`](documentacion/03-requisitos-mvp/) | ⬜ |
-| 4. Arquitectura | [`04-arquitectura`](documentacion/04-arquitectura/) | ⬜ |
-| 5. Diseño | [`05-diseno`](documentacion/05-diseno/) | ⬜ |
-| 6. Planificación y viabilidad | [`06-planificacion-viabilidad`](documentacion/06-planificacion-viabilidad/) | ⬜ |
-| 7. Gestión del desarrollo | [`07-gestion-desarrollo`](documentacion/07-gestion-desarrollo/) | ⬜ |
+| Bloque | Sesiones | Contenido | Entregable | Carpeta | Estado |
+| --- | --- | --- | --- | --- | --- |
+| 1. Presentación, equipos y anteproyecto | 1 | Formación de equipos y primera propuesta | Anteproyecto | [`01-anteproyecto`](01-anteproyecto/) | 🟡 |
+| 2. Definición | 2 y 3 | Idea, problema, usuarios, solución, casos de uso, justificación y objetivos | Documento de definición y casos de uso | [`02-definicion`](02-definicion/) | 🟡 |
+| 3. Requisitos y MVP | 4 y 5 | Requisitos funcionales y no funcionales, priorización, MVP y roadmap | Documento de requisitos y MVP | [`03-requisitos-mvp`](03-requisitos-mvp/) | ⬜ |
+| 4. Arquitectura | 6 y 7 | Arquitectura física/lógica e interna de la aplicación | Diagramas de arquitectura | [`04-arquitectura`](04-arquitectura/) | ⬜ |
+| 5. Diseño | 8 y 9 | Modelo relacional, bocetos de interfaces y navegación | Modelo de datos y bocetos | [`05-diseno`](05-diseno/) | ⬜ |
+| 6. Planificación y viabilidad | 10, 11 y 12 | Tareas, recursos, Gantt, costes, memoria económica y competencia | Planificación y estudio de viabilidad | [`06-planificacion-viabilidad`](06-planificacion-viabilidad/) | ⬜ |
+| 7. Gestión del desarrollo | 13 y 14 | Seguimiento con Git, tablero de tareas, revisión global y reparto definitivo | Plan de desarrollo cerrado | [`07-gestion-desarrollo`](07-gestion-desarrollo/) | ⬜ |
 
 > Leyenda: ⬜ pendiente · 🟡 en curso · ✅ terminado
 
-El código de la aplicación irá en [`src/`](src/) cuando comience la fase de desarrollo.
+## Trazabilidad
 
-## Estructura del repositorio
+Durante la revisión global comprobaremos que todo el proyecto es coherente de principio a fin:
 
-```text
-CineGest/
-├── README.md
-├── CONTRIBUTING.md
-├── documentacion/     ← documentos del proyecto, un bloque por carpeta
-└── src/               ← código de la aplicación (fase de desarrollo)
-```
+**casos de uso → objetivos → requisitos → diseño → tareas**
 
-## Equipo
+Para facilitarlo, cada elemento lleva un identificador y se cita desde los documentos posteriores:
 
-| Rol | Nombre | Usuario Git |
+| Elemento | Formato del ID | Dónde se define |
 | --- | --- | --- |
-| **Jefe de equipo** | _[Nombre del jefe de equipo]_ | _[@usuario]_ |
-| Miembro | Cristian Platero Zayago | [@CristianPlatero](https://github.com/CristianPlatero) |
-| Miembro | Rubén Fernández Carpintero | [@RFCDAW1](https://github.com/RFCDAW1) |
-| Miembro | Ossel Santamaría Bustelo | [@Ossel18](https://github.com/Ossel18) |
-| Miembro | Joaquin López Pérez | [@joaquinlopezperez](https://github.com/joaquinlopezperez) |
-| Miembro | Timur Asecov | [@tiimurr](https://github.com/tiimurr) |
+| Caso de uso | `CU-nn` | [`02-definicion`](02-definicion/) |
+| Regla de negocio | _[formato por unificar]_ | [`02-definicion`](02-definicion/) |
+| Requisito funcional | `RF-nn` | [`03-requisitos-mvp`](03-requisitos-mvp/) |
+| Requisito no funcional | `RNF-nn` | [`03-requisitos-mvp`](03-requisitos-mvp/) |
 
-**Tutor del proyecto:** Alejandro López Camus
+## Calendario
 
-## Estado actual
+| Hito | Fecha |
+| --- | --- |
+| Tiempo lectivo del módulo | 15 horas |
+| Desarrollo intermodular | Del 27 de enero al 9 de febrero de 2027 |
+| Defensas (antes de las FEM) | Semana del 22 de febrero de 2027 |
 
-**Fase:** documentación · **Bloque:** 2, Definición · **Última actualización:** 01/11/2026
+### Defensa
 
-Siguiente paso: completar el documento de definición, corregir los casos de uso y subir el anteproyecto.
+El proyecto se defiende ante un tribunal formado por parte del equipo docente. Hay que **enseñar la aplicación en ejecución** y habrá un debate con el tribunal. La nota final la pone el profesor del módulo de proyecto.
 
-## Cómo contribuir
+## Convenciones
 
-Las normas de trabajo con Git (commits, ramas, documentos editables) están en [`CONTRIBUTING.md`](CONTRIBUTING.md).
-
-## Contexto académico
-
-Proyecto Intermodular del ciclo formativo de Técnico Superior en Desarrollo de Aplicaciones Web (2.º DAW), curso 2026-27, en el IES Miguel Herrero Pereda (Torrelavega). Proyecto con fines académicos.
-
-© 2026-27 · Cristian Platero Zayago, Rubén Fernández Carpintero, Ossel Santamaría Bustelo, Joaquin López Pérez y Timur Asecov
+- Se guardan los archivos **originales y editables** (`.docx`, `.xlsx`, `.drawio`...), no solo PDF o imágenes.
+- Nombre de los documentos: `CineGest - <Nombre del documento>.<extensión>`.
+- Formato de los documentos escritos: Aptos 11 pt, interlineado 1,5, títulos con los estilos Título 1, 2 y 3, fondo blanco e índice automático.
+- Cada carpeta de bloque tiene un `README` con el mismo esquema: propósito, documentos, estado y pendientes. Se actualiza al subir o cambiar un documento.
+- El jefe de proyecto realiza una única entrega en Moodle en nombre de todo el equipo.
