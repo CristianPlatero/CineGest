@@ -6,7 +6,7 @@ Concreta qué debe hacer el sistema para cumplir los casos de uso y los objetivo
 
 | | |
 | --- | --- |
-| **Estado** | ⬜ pendiente |
+| **Estado** | 🟡 En curso |
 | **Responsable** | _[@usuario]_ |
 | **Última actualización** | _[dd/mm/aaaa]_ |
 
