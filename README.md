@@ -46,8 +46,7 @@ CineGest/
 
 | Rol | Nombre | Usuario Git |
 | --- | --- | --- |
-| **Jefe de equipo** | _[Nombre del jefe de equipo]_ | _[@usuario]_ |
-| Miembro | Cristian Platero Zayago | [@CristianPlatero](https://github.com/CristianPlatero) |
+| **Jefe de equipo** | Cristian Platero Zayago | [@CristianPlatero](https://github.com/CristianPlatero) |
 | Miembro | Rubén Fernández Carpintero | [@RFCDAW1](https://github.com/RFCDAW1) |
 | Miembro | Ossel Santamaría Bustelo | [@Ossel18](https://github.com/Ossel18) |
 | Miembro | Joaquin López Pérez | [@joaquinlopezperez](https://github.com/joaquinlopezperez) |
