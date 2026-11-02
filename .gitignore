@@ -1,0 +1,11 @@
+# Archivos temporales de LibreOffice y Word (se han llegado a subir por error)
+.~lock.*#
+~$*
+*.tmp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Fase de desarrollo: añadir aquí lo que genere el entorno
+# (por ejemplo node_modules/, vendor/, target/, .env)
