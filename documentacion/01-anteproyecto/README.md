@@ -6,15 +6,15 @@ Primera propuesta de proyecto presentada por el equipo, base de todo el trabajo 
 
 | | |
 | --- | --- |
-| **Estado** | 🟡 en curso |
+| **Estado** | ✅ Terminado |
 | **Responsable** | Ossel Santamaría Bustelo (autor del anteproyecto) |
-| **Última actualización** | _[dd/mm/aaaa]_ |
+| **Última actualización** | 02/11/2026 |
 
 ## Documentos
 
 | Documento | Archivo | Estado |
 | --- | --- | --- |
-| Anteproyecto | _[pendiente de subir]_ | 🟡 |
+| Anteproyecto | [Anteproyecto_CineGest.docx](./Anteproyecto_CineGest.docx) | ✅ |
 
 ## Resumen de la propuesta
 
@@ -31,8 +31,3 @@ Funcionalidades previstas según el anteproyecto (el alcance definitivo se cerra
 | **Gestión de clientes** | Almacenar los datos básicos de los usuarios y consultar sus reservas. |
 | **Panel de administración** | Permitir al personal del cine controlar películas, salas, sesiones y ventas desde una interfaz sencilla. |
 | **Consultas** | Mostrar la cartelera, los horarios disponibles y la ocupación de las salas. |
-
-## Pendiente
-
-- [ ] Subir el anteproyecto a esta carpeta.
-- [ ] Actualizar el estado a ✅ en este README, en `documentacion/README.md` y en el README principal.
