@@ -58,7 +58,7 @@ CineGest/
 
 **Fase:** documentación · **Bloque:** 2, Definición · **Última actualización:** 01/11/2026
 
-Siguiente paso: completar el documento de definición, corregir los casos de uso y subir el anteproyecto.
+Siguiente paso: completar el documento de definición, corregir los casos de uso.
 
 ## Cómo contribuir
 
