@@ -22,7 +22,7 @@ Toda la documentación del proyecto está en [`documentacion/`](documentacion/),
 | --- | --- | --- |
 | 1. Anteproyecto | [`01-anteproyecto`](documentacion/01-anteproyecto/) | ✅ |
 | 2. Definición y casos de uso | [`02-definicion`](documentacion/02-definicion/) | 🟡 |
-| 3. Requisitos y MVP | [`03-requisitos-mvp`](documentacion/03-requisitos-mvp/) | ⬜ |
+| 3. Requisitos y MVP | [`03-requisitos-mvp`](documentacion/03-requisitos-mvp/) | 🟡 |
 | 4. Arquitectura | [`04-arquitectura`](documentacion/04-arquitectura/) | ⬜ |
 | 5. Diseño | [`05-diseno`](documentacion/05-diseno/) | ⬜ |
 | 6. Planificación y viabilidad | [`06-planificacion-viabilidad`](documentacion/06-planificacion-viabilidad/) | ⬜ |
