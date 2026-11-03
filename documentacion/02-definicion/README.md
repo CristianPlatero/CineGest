@@ -14,7 +14,7 @@ Define qué es CineGest, a quién va dirigido y qué debe hacer. Incluye el docu
 
 | Documento | Archivo | Estado |
 | --- | --- | --- |
-| Documento del proyecto | [`CineGest - Documento del proyecto.docx`](CineGest%20-%20Documento%20del%20proyecto.docx) | 🟡 en revisión |
+| Documento del proyecto | [`CineGest - Documento del proyecto.docx`](CineGest-Documento%20del%20Proyecto.docx) | 🟡 en revisión |
 | Casos de uso, reglas y estados | [`CineGest - Casos de uso.docx`](CineGest%20-%20Casos%20de%20uso.docx) | ✅ versión 1.0 |
 
 ## Contenido del documento de casos de uso
