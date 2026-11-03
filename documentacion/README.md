@@ -14,7 +14,7 @@ El módulo se desarrolla de forma incremental. Durante las sesiones de clase tra
 | --- | --- | --- | --- | --- | --- |
 | 1. Presentación, equipos y anteproyecto | 1 | Formación de equipos y primera propuesta | Anteproyecto | [`01-anteproyecto`](01-anteproyecto/) | ✅ |
 | 2. Definición | 2 y 3 | Idea, problema, usuarios, solución, casos de uso, justificación y objetivos | Documento de definición y casos de uso | [`02-definicion`](02-definicion/) | 🟡 |
-| 3. Requisitos y MVP | 4 y 5 | Requisitos funcionales y no funcionales, priorización, MVP y roadmap | Documento de requisitos y MVP | [`03-requisitos-mvp`](03-requisitos-mvp/) | ⬜ |
+| 3. Requisitos y MVP | 4 y 5 | Requisitos funcionales y no funcionales, priorización, MVP y roadmap | Documento de requisitos y MVP | [`03-requisitos-mvp`](03-requisitos-mvp/) | 🟡 |
 | 4. Arquitectura | 6 y 7 | Arquitectura física/lógica e interna de la aplicación | Diagramas de arquitectura | [`04-arquitectura`](04-arquitectura/) | ⬜ |
 | 5. Diseño | 8 y 9 | Modelo relacional, bocetos de interfaces y navegación | Modelo de datos y bocetos | [`05-diseno`](05-diseno/) | ⬜ |
 | 6. Planificación y viabilidad | 10, 11 y 12 | Tareas, recursos, Gantt, costes, memoria económica y competencia | Planificación y estudio de viabilidad | [`06-planificacion-viabilidad`](06-planificacion-viabilidad/) | ⬜ |
