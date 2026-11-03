@@ -36,9 +36,17 @@ El código de la aplicación irá en [`src/`](src/) cuando comience la fase de d
 
 ```text
 CineGest/
-├── README.md
-├── CONTRIBUTING.md
-├── documentacion/     ← documentos del proyecto, un bloque por carpeta
+├── documentacion
+│   ├── 01-anteproyecto
+│   ├── 02-definicion
+│   ├── 03-requisitos-mvp
+│   ├── 04-arquitectura
+│   ├── 05-diseno
+│   ├── 06-planificacion-viabilidad
+│   ├── 07-gestion-desarrollo
+│   ├── CONTRIBUTING.md
+│   └── README.md
+└── README.md          ← documentos del proyecto, un bloque por carpeta
 └── src/               ← código de la aplicación (fase de desarrollo)
 ```
 
