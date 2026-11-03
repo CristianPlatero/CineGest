@@ -1,0 +1,157 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="cinegest-deploy" name="Despliegue C4">
+    <mxGraphModel dx="2049" dy="1077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;" value="&lt;b style=&quot;font-size:20px&quot;&gt;CineGest · Diagrama de despliegue (C4 Deployment) · Entorno de producción&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:12px&quot;&gt;Nodos, contenedores desplegados en cada nodo y protocolos de comunicación. Los nombres de tecnología marcados con «p. ej.» son una propuesta a confirmar por el equipo.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="1500" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#08427B;strokeColor=#073B6F;fontColor=#FFFFFF;shape=mxgraph.c4.person2;align=center;fontSize=12;" value="&lt;b&gt;Cliente&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[Persona]&lt;/font&gt;&lt;br&gt;Visitante o usuario registrado" vertex="1">
+          <mxGeometry height="130" width="140" x="40" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#08427B;strokeColor=#073B6F;fontColor=#FFFFFF;shape=mxgraph.c4.person2;align=center;fontSize=12;" value="&lt;b&gt;Personal / Administrador&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[Persona]&lt;/font&gt;&lt;br&gt;Gestiona el cine" vertex="1">
+          <mxGeometry height="130" width="140" x="40" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="d1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#888888;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;fontSize=13;fontColor=#222222;" value="&lt;b&gt;Dispositivo del cliente&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px;color:#555555&quot;&gt;[PC, portátil, tablet o móvil]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="250" width="320" x="230" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="b1" parent="d1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#888888;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;fontSize=13;fontColor=#222222;" value="&lt;b&gt;Navegador web&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px;color:#555555&quot;&gt;[p. ej. Chrome, Firefox, Safari, Edge]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="180" width="280" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" parent="b1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#3C7FC0;fontColor=#FFFFFF;fontSize=12;arcSize=8;" value="&lt;b&gt;Aplicación web · zona de clientes&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[HTML/CSS/JavaScript]&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Cartelera, asientos, compra y reservas&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="240" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#888888;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;fontSize=13;fontColor=#222222;" value="&lt;b&gt;Equipo del personal / administrador&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px;color:#555555&quot;&gt;[PC de oficina]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="250" width="320" x="230" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" parent="d2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#888888;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;fontSize=13;fontColor=#222222;" value="&lt;b&gt;Navegador web&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px;color:#555555&quot;&gt;[p. ej. Chrome, Firefox, Edge]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="180" width="280" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" parent="b2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#3C7FC0;fontColor=#FFFFFF;fontSize=12;arcSize=8;" value="&lt;b&gt;Aplicación web · panel de administración&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[HTML/CSS/JavaScript]&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Películas, salas, sesiones, ventas y cuentas&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="240" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#888888;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;fontSize=13;fontColor=#222222;" value="&lt;b&gt;Servidor de aplicación&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px;color:#555555&quot;&gt;[Servidor virtual Linux (VPS / nube)]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="540" width="460" x="780" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="web" parent="s1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#3C7FC0;fontColor=#FFFFFF;fontSize=12;arcSize=8;" value="&lt;b&gt;Servidor web / proxy inverso&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[Apache]&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Sirve la app web y HTTPS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="170" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="img" parent="s1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#3C7FC0;fontColor=#FFFFFF;fontSize=12;arcSize=8;" value="&lt;b&gt;Almacén de imágenes&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[Sistema de ficheros]&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Carteles de las películas&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="170" x="260" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="api" parent="s1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#3C7FC0;fontColor=#FFFFFF;fontSize=12;arcSize=8;" value="&lt;b&gt;API REST · lógica de negocio&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[Backend, REST/JSON]&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Autenticación y roles, catálogo, salas y sesiones, compra y reservas, validación de datos&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="400" x="30" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="sched" parent="s1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#3C7FC0;fontColor=#FFFFFF;fontSize=12;arcSize=8;" value="&lt;b&gt;Planificador de tareas&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[Proceso programado]&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Vence reservas caducadas y libera sus asientos&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="400" x="30" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#888888;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;fontSize=13;fontColor=#222222;" value="&lt;b&gt;Servidor de base de datos&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px;color:#555555&quot;&gt;[Servidor virtual Linux o BD gestionada · red privada]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="230" width="300" x="1560" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="db" parent="s2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=12;fillColor=#438DD5;strokeColor=#3C7FC0;fontColor=#FFFFFF;fontSize=12;" value="&lt;b&gt;Base de datos relacional&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[p. ej. MySQL / PostgreSQL]&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Usuarios, películas, salas, asientos, sesiones, ventas y reservas&lt;/font&gt;" vertex="1">
+          <mxGeometry height="140" width="240" x="30" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;fontSize=13;fontColor=#222222;" value="&lt;b&gt;Proveedor de pagos (externo)&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px;color:#555555&quot;&gt;[SaaS de terceros]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="300" x="1560" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pay" parent="e1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#8A8A8A;fontColor=#FFFFFF;fontSize=12;arcSize=8;" value="&lt;b&gt;Pasarela de pago con tarjeta&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[Sistema externo]&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Cobros y devoluciones&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#999999;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=8;spacingTop=4;fontSize=13;fontColor=#222222;" value="&lt;b&gt;Proveedor de correo (externo)&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px;color:#555555&quot;&gt;[SaaS / servidor SMTP]&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="300" x="1560" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="mail" parent="e2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#8A8A8A;fontColor=#FFFFFF;fontSize=12;arcSize=8;" value="&lt;b&gt;Servicio de correo electrónico&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;[Sistema externo]&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size:11px&quot;&gt;Avisos de cambios, ventas y cancelaciones&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="240" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ep1" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=blockThin;endFill=1;strokeColor=#707070;strokeWidth=1.5;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;" target="f1" value="Usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ep2" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=blockThin;endFill=1;strokeColor=#707070;strokeWidth=1.5;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;" target="f2" value="Usa">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_f1" edge="1" parent="1" source="f1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=blockThin;endFill=1;strokeColor=#707070;strokeWidth=1.5;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="web" value="Descarga la app y llama a la API&lt;br&gt;[HTTPS · HTML/JS · REST/JSON]">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="250" />
+              <mxPoint x="660" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_f2" edge="1" parent="1" source="f2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=blockThin;endFill=1;strokeColor=#707070;strokeWidth=1.5;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="web" value="Descarga la app y llama a la API&lt;br&gt;[HTTPS · HTML/JS · REST/JSON]">
+          <mxGeometry relative="1" x="-0.3" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="540" />
+              <mxPoint x="720" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_wa" edge="1" parent="1" source="web" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=blockThin;endFill=1;strokeColor=#707070;strokeWidth=1.5;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.2125;entryY=0;entryDx=0;entryDy=0;" target="api" value="Reenvía /api&lt;br&gt;[HTTP · REST/JSON]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_wi" edge="1" parent="1" source="web" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=blockThin;endFill=1;strokeColor=#707070;strokeWidth=1.5;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="img" value="Lee&lt;br&gt;[ficheros]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ai" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=blockThin;endFill=1;strokeColor=#707070;strokeWidth=1.5;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=0.8;exitY=0;exitDx=0;exitDy=0;entryX=0.53;entryY=1;entryDx=0;entryDy=0;" target="img" value="Guarda carteles&lt;br&gt;[E/S de ficheros]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_adb" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=blockThin;endFill=1;strokeColor=#707070;strokeWidth=1.5;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.9;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="db" value="Lee y escribe [SQL · TCP]">
+          <mxGeometry relative="1" x="-0.2" as="geometry">
+            <Array as="points">
+              <mxPoint x="1500" y="437" />
+              <mxPoint x="1500" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_sdb" edge="1" parent="1" source="sched" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=blockThin;endFill=1;strokeColor=#707070;strokeWidth=1.5;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" target="db" value="Actualiza reservas [SQL · TCP]">
+          <mxGeometry relative="1" x="-0.2" as="geometry">
+            <Array as="points">
+              <mxPoint x="1520" y="545" />
+              <mxPoint x="1520" y="517" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_pay" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=blockThin;endFill=1;strokeColor=#707070;strokeWidth=1.5;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="pay" value="Cobra y reembolsa&lt;br&gt;[HTTPS · REST/JSON]">
+          <mxGeometry relative="1" x="0.62" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="333" />
+              <mxPoint x="1330" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_mail" edge="1" parent="1" source="api" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=blockThin;endFill=1;strokeColor=#707070;strokeWidth=1.5;fontSize=11;fontColor=#333333;labelBackgroundColor=#FFFFFF;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="mail" value="Envía avisos [SMTPS / HTTPS]">
+          <mxGeometry relative="1" x="-0.45" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="357" />
+              <mxPoint x="1440" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lg_t" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=13;" value="&lt;b&gt;Leyenda&lt;/b&gt;" vertex="1">
+          <mxGeometry height="24" width="100" x="20" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="lg1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#08427B;strokeColor=#073B6F;fontColor=#FFFFFF;shape=mxgraph.c4.person2;align=center;fontSize=12;" value="Persona" vertex="1">
+          <mxGeometry height="60" width="70" x="20" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="lg2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#888888;strokeWidth=2;verticalAlign=middle;align=center;spacingLeft=8;spacingTop=4;fontSize=13;fontColor=#222222;fontSize=11;" value="Nodo de despliegue" vertex="1">
+          <mxGeometry height="50" width="130" x="110" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#438DD5;strokeColor=#3C7FC0;fontColor=#FFFFFF;fontSize=12;arcSize=8;" value="Contenedor desplegado" vertex="1">
+          <mxGeometry height="50" width="130" x="260" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="lg4" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=12;fillColor=#438DD5;strokeColor=#3C7FC0;fontColor=#FFFFFF;fontSize=12;" value="Base de datos" vertex="1">
+          <mxGeometry height="60" width="100" x="410" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="lg5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#999999;strokeColor=#8A8A8A;fontColor=#FFFFFF;fontSize=12;arcSize=8;" value="Sistema externo" vertex="1">
+          <mxGeometry height="50" width="120" x="530" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="lg6" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;" value="Línea discontinua: comunicación [protocolo]" vertex="1">
+          <mxGeometry height="50" width="260" x="670" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="notes" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#CCCCCC;align=left;verticalAlign=top;spacingLeft=10;spacingTop=6;fontSize=11;arcSize=4;" value="&lt;b&gt;Elementos separados&lt;/b&gt;&lt;br&gt;• Dispositivos del cliente y del personal: fuera del servidor, solo ejecutan el navegador.&lt;br&gt;• Servidor de aplicación y servidor de base de datos: nodos distintos; la BD solo es accesible desde el servidor de aplicación (red privada).&lt;br&gt;• Pasarela de pago y correo: servicios de terceros, fuera de la infraestructura del cine.&lt;br&gt;• Solo el servidor web (Apache) está expuesto a Internet; el backend no se publica directamente." vertex="1">
+          <mxGeometry height="100" width="780" x="960" y="690" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
