@@ -31,7 +31,7 @@ Se han elaborado los siguientes diagramas con diagrams.net (draw.io). Se incluye
 | Diagrama | Archivo editable | Exportación |
 | --- | --- | --- |
 | Diagrama de contenedores (C4) | [CineGest_Diagrama_Contenedores.drawio](Diagrama_Contenedores/CineGest_Diagrama_Contenedores.drawio) | [Ver PNG](Diagrama_Contenedores/CineGest_Diagrama_Contenedores.drawio.png) |
-| Diagrama de despliegue (C4) | [CineGest_Diagrama_Despliegue_C4.drawio](Diagrama_Despligue/CineGest_Diagrama_Despliegue_C4.drawio) | [Ver PNG](Diagrama_Despliegue/CineGest_Diagrama_Despliegue_C4.drawio.png) |
+| Diagrama de despliegue (C4) | [CineGest_Diagrama_Despliegue_C4.drawio](Diagrama_Despliegue/CineGest_Diagrama_Despliegue_C4.drawio) | [Ver PNG](Diagrama_Despliegue/CineGest_Diagrama_Despliegue_C4.drawio.png) |
 | Diagrama dinámico: comprar entradas | [CineGest_Diagrama_Dinamico_ComprarEntradas.drawio](Diagrama_Dinamico/CineGest_Diagrama_Dinamico_ComprarEntradas.drawio) | [Ver PNG](Diagrama_Dinamico/CineGest_Diagrama_Dinamico_ComprarEntradas.drawio.png) |
 
 ### 2.1. Diagrama de contenedores
