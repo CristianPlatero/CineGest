@@ -14,7 +14,7 @@ Primera propuesta de proyecto presentada por el equipo, base de todo el trabajo 
 
 | Documento | Archivo | Estado |
 | --- | --- | --- |
-| Anteproyecto | [Anteproyecto_CineGest.docx](./Anteproyecto_CineGest.docx) | ✅ |
+| Anteproyecto | [CineGest-Anteproyecto.docx](./CineGest-Anteproyecto.docx) | ✅ |
 
 ## Resumen de la propuesta
 
