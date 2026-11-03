@@ -14,7 +14,7 @@ Concreta qué debe hacer el sistema para cumplir los casos de uso y los objetivo
  
 | Documento | Archivo | Estado |
 | --- | --- | --- |
-| Requisitos y plan de versiones | [`CineGest - Requisitos y plan de versiones.docx`](CineGest%20-%20Requisitos%20y%20plan%20de%20versiones.docx) | 🟡 en revisión |
+| Requisitos y plan de versiones | [`CineGest - Requisitos y plan de versiones.docx`](CineGest-%20Requisitos%20y%20plan%20de%20versiones.docx) | 🟡 en revisión |
  
 ## Contenido
  
