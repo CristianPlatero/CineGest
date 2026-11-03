@@ -6,7 +6,7 @@ En este bloque se describe la arquitectura de **CineGest**: los elementos que fo
 
 | | |
 | --- | --- |
-| **Estado** | En desarrollo |
+| **Estado** | 🟡 en curso |
 | **Responsable** | Equipo de CineGest |
 | **Última actualización** | 03/11/2026 |
 
