@@ -1,63 +1,30 @@
 # Bloque 3 · Requisitos y MVP
-
+ 
 Concreta qué debe hacer el sistema para cumplir los casos de uso y los objetivos, y decide qué entra en la primera versión.
-
+ 
 [← Volver a la documentación](../README.md)
-
+ 
 | | |
 | --- | --- |
-| **Estado** | 🟡 En curso |
-| **Responsable** | _[@usuario]_ |
-| **Última actualización** | _[dd/mm/aaaa]_ |
-
+| **Estado** | 🟡 en curso |
+| **Responsable** | (@CristianPlatero) |
+| **Última actualización** | (03/11/26) |
+ 
 ## Documentos
-
+ 
 | Documento | Archivo | Estado |
 | --- | --- | --- |
-| Documento de requisitos y MVP | _[pendiente]_ | ⬜ |
-
-## Requisitos funcionales
-
-<!-- Un requisito por fila. Cada uno debe citar el caso de uso y el objetivo del que procede. Las reglas de negocio se citan en la columna «Reglas». Los comportamientos del sistema (validar datos, mostrar mensajes de error) se recogen aquí como requisitos. -->
-
-| ID | Requisito | Prioridad | Casos de uso | Reglas | Objetivo | Estado |
-| --- | --- | --- | --- | --- | --- | --- |
-| RF-01 | _[El sistema deberá...]_ | _[Alta / Media / Baja]_ | _[CU-nn]_ | _[ID]_ | _[n.º]_ | ⬜ |
-| RF-02 | | | | | | ⬜ |
-
-## Requisitos no funcionales
-
-| ID | Requisito | Categoría | Criterio de aceptación | Estado |
-| --- | --- | --- | --- | --- |
-| RNF-01 | _[Rendimiento, seguridad, usabilidad, compatibilidad...]_ | _[categoría]_ | _[cómo se comprueba]_ | ⬜ |
-
-## Priorización
-
-<!-- Clasificar los requisitos con el método elegido (por ejemplo MoSCoW) y justificarlo. -->
-
-| Prioridad | Requisitos |
-| --- | --- |
-| Imprescindible | _[RF-nn, ...]_ |
-| Importante | _[RF-nn, ...]_ |
-| Deseable | _[RF-nn, ...]_ |
-| Fuera de alcance | _[RF-nn, ...]_ |
-
-## MVP
-
-Primera versión funcional del producto.
-
-| Entra en el MVP | Queda para versiones posteriores |
-| --- | --- |
-| _[funcionalidad]_ | _[funcionalidad]_ |
-
-## Roadmap
-
-| Versión | Contenido | Fecha prevista |
-| --- | --- | --- |
-| MVP | _[...]_ | _[dd/mm/aaaa]_ |
-| 1.1 | _[...]_ | _[dd/mm/aaaa]_ |
-
+| Requisitos y plan de versiones | [`CineGest - Requisitos y plan de versiones.docx`](CineGest%20-%20Requisitos%20y%20plan%20de%20versiones.docx) | 🟡 en revisión |
+ 
+## Contenido
+ 
+40 requisitos funcionales (RF-01 a RF-40), 9 requisitos no funcionales (RNF-01 a RNF-09), plan de tres versiones (1.0 MVP, 1.1 y 1.2) con fechas, definición del MVP y matrices de trazabilidad de casos de uso y de reglas de negocio.
+ 
 ## Pendiente
+ 
+- [ ] Cerrar la revisión del documento de requisitos con el equipo.
+- [ ] Confirmar las fechas previstas del roadmap.
+
 
 - [ ] Redactar los requisitos funcionales a partir de los casos de uso.
 - [ ] Redactar los requisitos no funcionales.
