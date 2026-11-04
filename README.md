@@ -23,7 +23,7 @@ Toda la documentación del proyecto está en [`documentacion/`](documentacion/),
 | 1. Anteproyecto | [`01-anteproyecto`](documentacion/01-anteproyecto/) | ✅ |
 | 2. Definición y casos de uso | [`02-definicion`](documentacion/02-definicion/) | 🟡 |
 | 3. Requisitos y MVP | [`03-requisitos-mvp`](documentacion/03-requisitos-mvp/) | 🟡 |
-| 4. Arquitectura | [`04-arquitectura`](documentacion/04-arquitectura/) | ⬜ |
+| 4. Arquitectura | [`04-arquitectura`](documentacion/04-arquitectura/) | 🟡 |
 | 5. Diseño | [`05-diseno`](documentacion/05-diseno/) | ⬜ |
 | 6. Planificación y viabilidad | [`06-planificacion-viabilidad`](documentacion/06-planificacion-viabilidad/) | ⬜ |
 | 7. Gestión del desarrollo | [`07-gestion-desarrollo`](documentacion/07-gestion-desarrollo/) | ⬜ |
@@ -64,9 +64,9 @@ CineGest/
 
 ## Estado actual
 
-**Fase:** documentación · **Bloque:** 2, Definición · **Última actualización:** 01/11/2026
+**Fase:** documentación · **Bloque:** 4, Arquitectura · **Última actualización:** 04/11/2026
 
-Siguiente paso: completar el documento de definición, corregir los casos de uso.
+Siguiente paso: Comenzar con el Modelo de Datos, corregir errores de lógica o coherencia.
 
 ## Cómo contribuir
 
